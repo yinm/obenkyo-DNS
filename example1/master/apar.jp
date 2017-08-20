@@ -1,0 +1,12 @@
+$TTL 3600
+@   IN  SOA ns1.apar.jp. ns1.apar.jp. (
+  2014100801 ; Serial
+  3600       ; Refresh
+  900        ; Retry
+  2419200    ; Expire
+  600        ; Negative cache TTL
+)
+IN   NS   ns1.apar.jp.
+
+ns1  IN A 192.168.33.10
+www  IN A 172.16.1.10
